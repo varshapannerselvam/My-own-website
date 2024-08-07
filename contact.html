@@ -1,0 +1,166 @@
+<head>
+  <title>Ms P Varsha</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+  <body ng-controller="MainController">
+  
+    <header>
+      <h1>Contact Details</h1>
+    </header>
+<nav>
+    <ul>
+      <li><a href="C:\Users\Varsha\Desktop\WebsiteProject\home.html">Home</a></li>
+      <li><a href="C:\Users\Varsha\Desktop\WebsiteProject\about.html">About</a></li>
+      <li><a href="C:\Users\Varsha\Desktop\WebsiteProject\portfolio.html">Resume</a></li>
+      <li><a href="C:\Users\Varsha\Desktop\WebsiteProject\contact.html">Contact</a></li>
+      <li><a href="C:\Users\Varsha\Desktop\WebsiteProject\collection.html">My Art work</a></li>
+    </ul>
+  </nav>
+  <center>
+<section class="contact">
+  <div class="contect">
+    <h2><u>Contact Us</u></h2>
+    <h1><font color="white" >Opportunities don't happen, you create them...</font></h1>
+  </div>
+  <div class="container">
+    <div class="ContactInfo">
+      <div class="box">
+        <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+        <div class="text">
+          <h3><font color ="white"><i><u>Address</u></i></font></h3>
+          <p>1/210 D/O ,T.Panneer Selvam,<br>vallaler street, vikramam,<br>thanjavur-613001.</p>
+        </div>
+        <div class="box">
+          <div class="icon"><i class="fa fa-phone" aria-hidden="true"></i></div>
+          <div class="text">
+            <h3><font color ="white"><i><u>Phone</u></i></h3>
+            <p>904-310-6886</p>
+          </div>
+          <div class="box">
+            <div class="icon"><i class="fa fa-envelope-o" aria-hidden="true"></i></div>
+            <div class="text">
+              <h3><font color ="white"><i><u>Email</u></i></h3>
+              <p>p.varshavkm@gmail.com</p>
+            </div>
+ <div class="Contact form">
+      <form>
+        <h2>Send Message</h2>
+        <table>
+          <tr>
+              <th>
+                  <h1>Contact form</h1>
+              </th>
+          </tr>
+          <tr>
+              <td>
+                  <input type="text" id="number1" placeholder="Name"><br><br>
+              </td>
+          </tr>
+          <tr>
+              <td>
+                  <input type="text" id="number2" placeholder="Email">
+              </td>
+          </tr>
+          <tr>
+              <td>
+                  <h5>Output:</h5>
+              </td>
+          </tr>
+          <tr>
+              <td>
+                  <div id="outputbox">
+                  </div><br><br>
+              </td>
+          </tr>
+      </table>
+      <button onclick="SubmitEvent()">submit</button>
+      <style>
+        body{
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+          font-family:'poppins',sans-serif;
+        }
+        .Contact
+        { position: relative;
+        min-height: 100vh;
+        padding: 50px 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-image: url('mani 1.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        }
+        
+      .Contact.Contact
+        
+        {
+          max-width: 800px;
+          text-align: center;
+        }
+        .Contact.Contact h2
+        { 
+          font-size: 36px;
+          font-weight: 500;
+          color: #fff;
+        }
+        .Contact.Contact p
+        { 
+          font-weight: 300;
+          color: #fff;
+        }
+        .container
+        {
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-top: 30px;
+  
+        }
+        .container.containerinfo
+        {
+          width: 50%;
+          display: flex;
+          flex-direction: column;
+        }
+        .container.containerinfo.box
+        {
+          position: relative;
+          padding: 20px 0;
+          display: flex;
+        }
+         .container.containerinfo.box.text 
+        {
+          display: flex;
+          margin-left: 20px;
+          font-size: 16px;
+          color: #fff;
+          flex-direction: column;
+         }
+         .container.containerinfo.box.text h3
+         {
+          font-weight: 500;
+          color: #00bcd4;
+         }
+         .containerForm
+         {
+          width: 40;
+          padding: 40px;
+          background: #fff;
+         }
+      </style>
+      </form>
+  </div>
+</section></center>
+  <div ng-view></div>
+
+  <div>
+    <p>&copy; 2024 My Personal Website</p>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
